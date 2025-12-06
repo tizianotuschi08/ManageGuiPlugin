@@ -1,0 +1,69 @@
+###############################################
+#                 MENU 1 SETTINGS
+# This is the main configuration for Menu 1.
+# You can customize the title and every item.
+# Color codes (&) are supported everywhere.
+###############################################
+
+Menu1:
+
+  ###########################################
+  # Title:
+  #   - The title displayed at the top of the GUI.
+  #   - Supports Minecraft color codes (&).
+  ###########################################
+  Title: "&5&lMulti-Menu"
+
+  Items:
+
+    ##########################################################
+    # Cancel:
+    #   - Closes the menu when clicked.
+    #   - "Type" must be a valid Minecraft Material.
+    #   - "Name" supports color codes (&).
+    ##########################################################
+    Cancel:
+      Type: BARRIER
+      Name: "&cCancel"
+
+    ##########################################################
+    # Teleport:
+    #   - Teleports the player to a random target.
+    #   - "Description" is optional (item lore).
+    #   - You can add multiple lore lines using " | ".
+    ##########################################################
+    Teleport:
+      Type: ENDER_EYE
+      Name: "&dRandom Teleport"
+      Description:
+        - "&7Teleport to a random player!"
+
+    ##########################################################
+    # Kill:
+    #   - Instantly kills the player who clicks the item.
+    #   - You can freely modify the name and description.
+    ##########################################################
+    Kill:
+      Type: DIAMOND_SWORD
+      Name: "&cKill yourself"
+      Description:
+       - "&7Kill yourself and make your life better!"
+
+    ##########################################################
+    # Clear-Inventory:
+    #   - Completely clears the player's inventory.
+    #   - Warning: this action cannot be undone!
+    ##########################################################
+    Clear-Inventory:
+      Type: LAVA_BUCKET
+      Name: "&eClear your inventory!"
+      Description:
+       - "&7Your inventory will disappear!"
+
+    ##########################################################
+    # Borders:
+    #   - Decorative item used to fill borders inventory slots.
+    #   - Used around the edges of the menu.
+    ##########################################################
+    Borders:
+      Type: 'GRAY_STAINED_GLASS_PANE'

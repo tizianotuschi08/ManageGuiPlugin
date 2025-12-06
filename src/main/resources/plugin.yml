@@ -1,5 +1,5 @@
 name: ManageGuiPlugin
-version: '1.0.0'
+version: '1.1.0'
 main: org.example.com.manageGuiPlugin.Main
 api-version: '1.21'
 description: Lezione sulla gestione dei proiettili
