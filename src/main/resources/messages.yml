@@ -1,0 +1,17 @@
+# Prefix used in all plugin messages to identify the plugin
+Prefix: '&6[TizianoDevelop] '
+
+# Teleport-related messages
+Teleport:
+  # Message shown to the player who is being teleported
+  TeleportPlayer: '&7You have been teleported to'
+  # Message shown to the target player who another player teleports to them
+  TeleportTarget: '&7has been teleported to you!'
+  # Color code used for target player names in teleport messages
+  TargetColor: '&b'
+
+# Message displayed when a player kills themselves
+KillYourSelf: '&cYou killed yourself!'
+
+# Message displayed when a player clears their inventory
+ClearInventory: '&aYou cleared your inventory!'

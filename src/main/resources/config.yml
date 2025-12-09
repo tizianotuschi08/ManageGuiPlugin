@@ -17,16 +17,6 @@ Menu1:
   Items:
 
     ##########################################################
-    # Cancel:
-    #   - Closes the menu when clicked.
-    #   - "Type" must be a valid Minecraft Material.
-    #   - "Name" supports color codes (&).
-    ##########################################################
-    Cancel:
-      Type: BARRIER
-      Name: "&cCancel"
-
-    ##########################################################
     # Teleport:
     #   - Teleports the player to a random target.
     #   - "Description" is optional (item lore).
